@@ -1,0 +1,2 @@
+import {provider,position,json} from '../src/chain.js';import {assess} from '../src/risk.js';import {explain} from '../src/ai.js';
+const p=provider();try{const snapshot=await position(p,process.argv[2]||process.env.CAMPAIGN_WALLET||'0x9F81A9588c310b90A0636E8D2fb31523a57fbaDC');const risk=assess(snapshot);console.log(json({snapshot,risk,explanation:await explain(snapshot,risk)}));}catch{console.error('Explanation unavailable; no transaction sent.');process.exitCode=1;}finally{p.destroy();}
