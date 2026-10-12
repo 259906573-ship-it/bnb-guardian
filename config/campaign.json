@@ -1,0 +1,13 @@
+{
+  "wallet": "0x9F81A9588c310b90A0636E8D2fb31523a57fbaDC",
+  "agentWallet": "0x9F81A9588c310b90A0636E8D2fb31523a57fbaDC",
+  "registeredAt": null,
+  "registrationEvidenceUrl": null,
+  "agentId": null,
+  "publicBaseUrl": "https://bnb-guardian.pages.dev",
+  "githubUrl": "https://github.com/259906573-ship-it/bnb-guardian",
+  "actions": [],
+  "outgoingHires": [],
+  "externalHires": [],
+  "registrationTx": null
+}
