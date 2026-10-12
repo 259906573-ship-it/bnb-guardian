@@ -1,0 +1,39 @@
+{
+  "version": "V0.0.1",
+  "type": "LOCAL_READ_ONLY_SMOKE",
+  "observedAt": "2026-10-11T23:59:34.392Z",
+  "base": "http://127.0.0.1:8797",
+  "results": [
+    {
+      "path": "/healthz",
+      "status": 200
+    },
+    {
+      "path": "/agent-registration.json",
+      "status": 200
+    },
+    {
+      "path": "/v1/position?account=0x9F81A9588c310b90A0636E8D2fb31523a57fbaDC",
+      "status": 200
+    },
+    {
+      "path": "/mcp",
+      "status": 200
+    },
+    {
+      "path": "/mcp",
+      "status": 200
+    },
+    {
+      "path": "/mcp",
+      "status": 200
+    }
+  ],
+  "observedBlock": 136258208,
+  "observedBlockHash": "0x27f41c1f0b7c3f6aa6e6aa9c604470e1ccd1c91b032f582f3cacdb6a8ce0ec51",
+  "borrowedUsdWad": "0",
+  "transactionsSent": 0,
+  "limitations": [
+    "Live read and MCP checks only. No public deployment, AI call, positive-debt repayment, marketplace or registration transaction was verified."
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "version": "V0.0.1",
+  "checkedAt": "2026-10-11T23:59:30.444Z",
+  "qualified": false,
+  "checks": {
+    "registration": "MISSING",
+    "identityAndListing": "MISSING",
+    "fiveActions": "MISSING",
+    "threeUtcDates": "MISSING",
+    "threeDifferentAgents": "MISSING",
+    "twoMarkets": "MISSING",
+    "threeExternalWallets": "MISSING",
+    "externalFundingIndependence": "REVIEW_REQUIRED",
+    "publicRepository": "REVIEW_REQUIRED",
+    "aiAndAutonomousExecution": "REVIEW_REQUIRED",
+    "phase2OriginalityAndListingDate": "REVIEW_REQUIRED"
+  },
+  "evidence": {
+    "actions": [],
+    "outgoingHires": [],
+    "externalHires": []
+  },
+  "issues": [],
+  "limitations": [
+    "Wallet independence and indirect/common-source funding cannot be proven from receipts alone. Manual organizer review is required.",
+    "Only the HelloFugu Chain 97 hire adapter has been implemented and verified against source; other markets are UNKNOWN, never counted.",
+    "Five repayments must be legitimate triggered work; no artificial risk creation or circular repayments."
+  ],
+  "status": "NOT_QUALIFIED_OR_NOT_FULLY_VERIFIED"
+}
