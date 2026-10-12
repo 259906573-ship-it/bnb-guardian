@@ -1,0 +1,19 @@
+{
+  "version": "V0.0.2",
+  "deployedAt": "2026-10-12",
+  "publicBaseUrl": "https://bnb-guardian.pages.dev",
+  "pagesDeploymentUrl": "https://8d7fc5f4.bnb-guardian.pages.dev",
+  "worker": "bnb-guardian-monitor",
+  "workerVersionId": "5c0886d6-3084-4029-917d-298555aeade2",
+  "d1Id": "eeadc0e5-5e6c-4a10-bd7a-e038557d8db6",
+  "cron": "* * * * *",
+  "chainId": 97,
+  "transactionsSent": 0,
+  "paidSubscriptionEnabled": false,
+  "limitations": [
+    "AI provider is not configured",
+    "ERC-8004 registration and marketplace listing remain incomplete",
+    "Free plan CPU and account-wide usage have not been independently measured",
+    "Mascot icon remains incomplete"
+  ]
+}
