@@ -1,0 +1,11 @@
+{
+  "version": "V0.0.2",
+  "observedAt": "2026-10-12T00:20:34.337Z",
+  "restartedWorkerProcess": true,
+  "ranNewCron": false,
+  "persistedPreviousBlock": 136260663,
+  "persistedObservedAt": 1791764275622,
+  "httpStatus": 200,
+  "stale": false,
+  "transactionsSent": 0
+}

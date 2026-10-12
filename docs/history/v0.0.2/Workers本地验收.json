@@ -1,0 +1,47 @@
+{
+  "version": "V0.0.2",
+  "type": "LOCAL_WORKER_REAL_RPC",
+  "observedAt": "2026-10-12T00:18:02.162Z",
+  "base": "http://127.0.0.1:8798",
+  "results": [
+    {
+      "path": "/cdn-cgi/local/scheduled?format=json",
+      "status": 200
+    },
+    {
+      "path": "/healthz",
+      "status": 200
+    },
+    {
+      "path": "/agent-registration.json",
+      "status": 200
+    },
+    {
+      "path": "/v1/watch",
+      "status": 200
+    },
+    {
+      "path": "/v1/position?account=0x9F81A9588c310b90A0636E8D2fb31523a57fbaDC",
+      "status": 200
+    },
+    {
+      "path": "/mcp",
+      "status": 200
+    }
+  ],
+  "cron": {
+    "ok": true,
+    "observedAt": 1791764275622,
+    "scheduledTime": 1791764275621,
+    "block": 136260663,
+    "blockHash": "0x0fffe2780f9b11bc7337f62e7ddf18f7267e6f9fe550540a0ff0b7638a58d303",
+    "accounts": 1,
+    "transactionsSent": 0
+  },
+  "block": 136260671,
+  "transactionsSent": 0,
+  "publicDeployment": false,
+  "limitations": [
+    "Local Workerd scheduled invocation and D1 persistence tested; not a deployed Cloudflare Cron, not a signed operation, not an AI model call."
+  ]
+}

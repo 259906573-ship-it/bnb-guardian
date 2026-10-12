@@ -1,0 +1,47 @@
+{
+  "status": 200,
+  "version": "V0.0.2",
+  "monitor": {
+    "ok": true,
+    "observedAt": 1791766361811,
+    "scheduledTime": 1791766361000,
+    "block": 136265297,
+    "blockHash": "0xcaaf3c009fac6915dde61c1de1db3e6e63a716544168b065735bb1506efc88a7",
+    "accounts": 1,
+    "transactionsSent": 0
+  },
+  "monitorFresh": true,
+  "positions": [
+    {
+      "observedAt": 1791766361811,
+      "data": {
+        "version": "V0.0.2",
+        "position": {
+          "account": "0x9F81A9588c310b90A0636E8D2fb31523a57fbaDC",
+          "chainId": 97,
+          "protocol": "venus-core-testnet",
+          "blockNumber": 136265297,
+          "blockHash": "0xcaaf3c009fac6915dde61c1de1db3e6e63a716544168b065735bb1506efc88a7",
+          "timestamp": 1791766361,
+          "weightedCollateralUsdWad": "0",
+          "debtUsdWad": "0",
+          "healthFactorWad": null,
+          "liquidityUsdWad": "0",
+          "shortfallUsdWad": "0",
+          "oracle": "0x3cD69251D04A28d887Ac14cbe2E14c52F3D57823",
+          "markets": [],
+          "limitations": [
+            "Stored balances, matching protocol liquidity accounting; interest and prices can change before execution.",
+            "Health factor is collateral-factor coverage for Venus Core, not an Aave liquidation-threshold metric."
+          ]
+        },
+        "risk": {
+          "status": "no-debt",
+          "action": "none",
+          "requiredRepayUsdWad": "0"
+        }
+      },
+      "stale": false
+    }
+  ]
+}

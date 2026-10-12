@@ -1,0 +1,32 @@
+{
+  "version": "V0.0.2",
+  "type": "LOCAL_PAGES_AND_COMPANION_WORKER_REAL_RPC",
+  "observedAt": "2026-10-12T00:24:23.996Z",
+  "checks": [
+    {
+      "path": "/healthz",
+      "status": 200
+    },
+    {
+      "path": "/v1/watch",
+      "status": 200
+    },
+    {
+      "path": "/agent-registration.json",
+      "status": 200
+    },
+    {
+      "path": "/v1/position?account=0x9F81A9588c310b90A0636E8D2fb31523a57fbaDC",
+      "status": 200
+    }
+  ],
+  "cronBlock": 136261512,
+  "pagesReadSameCronBlock": true,
+  "rateLimitVerified": true,
+  "rateLimitedResponses": 1,
+  "publicDeployment": false,
+  "transactionsSent": 0,
+  "limitations": [
+    "Local Pages/Worker runtimes share local D1. Public domain availability, Cloudflare schedule propagation and free-tier CPU limits still require deployment verification."
+  ]
+}
