@@ -1,0 +1,12 @@
+{
+  "version": "V0.0.2",
+  "filesChecked": 41,
+  "secretScan": "PASS",
+  "zipIntegrity": "PASS",
+  "testsPassed": 18,
+  "publicDeployment": false,
+  "transactionsSent": 0,
+  "zipBytes": 56216,
+  "zipSha256": "0d1b78f80af93334e1690b9fe48183e9fa7f312caed39a85c468b3fe99ccfec4",
+  "gitBlobSha": "a23525860bf670153390be1d9fb05254c6105ada"
+}
