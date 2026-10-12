@@ -16,7 +16,8 @@
     "registration_simulation": true,
     "local_http_end_to_end": true,
     "real_local_ai": "qwen3.5:9b-mlx",
-    "production_v002_healthy": true
+    "production_v002_healthy": true,
+    "publicSourceReproductionTests": 26
   },
   "requires_user_action": [
     "Campaign enrollment proof",
@@ -47,5 +48,5 @@
     "Hosted AI is not yet configured",
     "Highest-quality mascot icon remains incomplete"
   ],
-  "githubSourcePublication": "SOURCE_HASH_VERIFIED: 43 runtime/config/build files publicly published; documentation upload in progress"
+  "githubSourcePublication": "PUBLIC_SOURCE_AND_DOCS_VERIFIED: 43 source/config/build files plus 30 current/history documents"
 }

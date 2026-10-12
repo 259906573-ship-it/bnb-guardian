@@ -1,21 +1,29 @@
 {
   "version": "V0.0.3",
-  "checkedAt": "2026-10-12T07:20:10.546756+00:00",
+  "checkedAt": "2026-10-12T12:22:08.627770+00:00",
   "repository": "https://github.com/259906573-ship-it/bnb-guardian",
   "publishedAndHashVerifiedDirectories": [
     "src",
     "config",
     "scripts",
     "test",
-    "migrations"
+    "migrations",
+    "docs",
+    "docs/history/v0.0.1",
+    "docs/history/v0.0.2"
   ],
-  "verifiedFileCount": 43,
-  "pending": [
-    "Current docs and historical evidence directories"
-  ],
-  "complete": false,
+  "verifiedFileCount": 73,
+  "pending": [],
+  "complete": true,
   "blocker": null,
   "production": "V0.0.2 remains healthy",
   "transactionsSent": 0,
-  "rootCommit": "13fe8fd0cc42b81a37fcc925566a39eb682589ca"
+  "rootCommit": "13fe8fd0cc42b81a37fcc925566a39eb682589ca",
+  "publicSourceReproduction": {
+    "download": "public GitHub codeload archive",
+    "runtimeFilesMatched": 43,
+    "npmCi": "PASS",
+    "testsPassed": 26,
+    "testsFailed": 0
+  }
 }

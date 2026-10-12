@@ -123,7 +123,7 @@
     },
     {
       "path": "docs/V003交付清单.json",
-      "sha256": "81af4d25ead6217d02aafb1c187a795f951516f38fba17c23ac51727d443f3dc"
+      "sha256": "116f6f30f62d167a26506d67fdfafbab8fcf8c75a6de19b94bfdea05480f87a3"
     },
     {
       "path": "docs/自动测试结果.txt",
@@ -131,7 +131,7 @@
     },
     {
       "path": "docs/资格审计报告.json",
-      "sha256": "4aed8142d353159347fa5fe7b07fdaa76ae18be5f77454071d50b6495074a503"
+      "sha256": "3f3b24c1dd6dbf77b827441763f05b3c93cd9e3c967dad5efb0ecf07bdc09ff4"
     },
     {
       "path": "docs/平台与注册只读核验.json",

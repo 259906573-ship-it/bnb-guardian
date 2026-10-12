@@ -8,7 +8,7 @@
   },
   "functional_tx_evidence": [],
   "version": "V0.0.3",
-  "checkedAt": "2026-10-12T01:27:46.636Z",
+  "checkedAt": "2026-10-12T12:24:42.030100+00:00",
   "qualified": false,
   "checks": {
     "registration": "MISSING",
@@ -19,7 +19,7 @@
     "twoMarkets": "MISSING",
     "threeExternalWallets": "MISSING",
     "externalFundingIndependence": "REVIEW_REQUIRED",
-    "publicRepository": "REVIEW_REQUIRED",
+    "publicRepository": "PUBLIC_SOURCE_VERIFIED; organizer review still applies",
     "aiAndAutonomousExecution": "REVIEW_REQUIRED",
     "phase2OriginalityAndListingDate": "REVIEW_REQUIRED"
   },
@@ -44,5 +44,12 @@
     "Second marketplace adapter",
     "Actual service delivery and continuously reachable AI"
   ],
-  "status": "NOT_QUALIFIED_OR_NOT_FULLY_VERIFIED"
+  "status": "NOT_QUALIFIED_OR_NOT_FULLY_VERIFIED",
+  "publicRepositoryEvidence": {
+    "url": "https://github.com/259906573-ship-it/bnb-guardian",
+    "sourceFilesMatched": 43,
+    "currentAndHistoryDocsMatched": 30,
+    "publicSourceTestsPassed": 26,
+    "onchainStatusUnchanged": true
+  }
 }
