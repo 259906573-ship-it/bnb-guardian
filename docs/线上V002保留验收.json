@@ -1,0 +1,24 @@
+{
+  "name": "BNB Guardian",
+  "version": "V0.0.2",
+  "chainId": 97,
+  "runtime": "cloudflare-workers",
+  "rpc": {
+    "ok": true,
+    "block": 136272821
+  },
+  "monitor": {
+    "ok": true,
+    "observedAt": 1791769721765,
+    "scheduledTime": 1791769721000,
+    "block": 136272763,
+    "blockHash": "0x79f193c1f1a75d8d9afc9402983d4c5d7cc8aed730f438b9ee823ded62791586",
+    "accounts": 1,
+    "transactionsSent": 0
+  },
+  "monitorFresh": true,
+  "execution": "user-confirmation-required",
+  "registered": false,
+  "aiConfigured": false,
+  "transactionsSent": 0
+}

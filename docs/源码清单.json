@@ -1,0 +1,289 @@
+{
+  "version": "V0.0.3",
+  "files": [
+    {
+      "path": "Dockerfile",
+      "sha256": "86aae72c7eebe00e787600685967a01cf0efa915ec972198253377ab7a08c728"
+    },
+    {
+      "path": "wrangler.json",
+      "sha256": "90b6ece063c627dc263bc325382c9f5d529a60211a683fddbd4b4b3c7179a434"
+    },
+    {
+      "path": "wrangler.worker.json",
+      "sha256": "682b9ca0fadac511435232c4e384dd1c8a4dd1967329624560cef0aea17caa47"
+    },
+    {
+      "path": "README.md",
+      "sha256": "cb48f8079738fb31d5b79d06d8c4c3004fdb55441776ad22e6c35deb427ceb45"
+    },
+    {
+      "path": ".dockerignore",
+      "sha256": "94fb446e8a803e7bfe43237525214bfe438509e6a1f4b45d918658bc861977d1"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "db11d7152f608ac9b79232261609ba3aa6224f93842afcd8f551c97080f6c4f0"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "a329639fe7ca10b52e08839553285eff13b2416a92cf825adcf1bb56629ad000"
+    },
+    {
+      "path": "package.json",
+      "sha256": "1f16390c2b9f4fe0e25b2aad53130efdb00d4b4010631a884e6384d35f331206"
+    },
+    {
+      "path": ".env.example",
+      "sha256": "af4ccc17d4d95c29e887ab1158bc1e7ad1e03d485e3255b9d9cc1845272759eb"
+    },
+    {
+      "path": "migrations/0002_rate_limits.sql",
+      "sha256": "9a8b766fbd02114b64d931cbf21d4eb338fa432474048c46fe46dcf756eaa3cf"
+    },
+    {
+      "path": "migrations/0003_service_deliveries.sql",
+      "sha256": "c6065e4bb22feb7f3a19325648421aa1538332db3c9f19ba659922e9917620d9"
+    },
+    {
+      "path": "migrations/0001_monitor.sql",
+      "sha256": "49bb3fbf6fdbc7a8bbdef6d6da841f555d98f2e49c64ee4a7779f80d17c6fe4e"
+    },
+    {
+      "path": "test/risk.test.js",
+      "sha256": "ee1b86b47f6fbef7e4949663eb94051d167d60e2204d6297c9fef8ea3083b573"
+    },
+    {
+      "path": "test/worker.test.js",
+      "sha256": "bf020b286d8471a8c115e06c4ebce7dfc8390937a578a31a0c4c316b10a6809f"
+    },
+    {
+      "path": "test/prepare.test.js",
+      "sha256": "f11ea08876a64210b48712c8c24d3b3a34e3f56ad8c823517f296e0633037cb4"
+    },
+    {
+      "path": "test/ai-market.test.js",
+      "sha256": "bcb8ebc4e2f1de30267be42acf9b5f3d1b862a5afabbdc5888d17e94f01aabb9"
+    },
+    {
+      "path": "config/campaign.json",
+      "sha256": "69a53d8879b4dadade9661aa657e065ae1a7056f7c53c3d76de42723260c19eb"
+    },
+    {
+      "path": "config/hire-input.example.json",
+      "sha256": "9fdb27205d028a2b71a3f9e8cebd807459091ddfe10bdf461f94e918b52b6e8f"
+    },
+    {
+      "path": "config/list-input.example.json",
+      "sha256": "8c7a906a552b99e60e7bc7ace569b6175906566d77e7935bef18d9982dafb835"
+    },
+    {
+      "path": "config/network.json",
+      "sha256": "b66d77cfb5be10ee73cffbcf82cff5da0b2903125f9eeff6ceece5a88bea442a"
+    },
+    {
+      "path": "config/register-input.json",
+      "sha256": "17c11ded74e4e35198c623922d0171c79242d847161709b9cd425c4460099749"
+    },
+    {
+      "path": "docs/五次功能操作方案.md",
+      "sha256": "25228d0dd8315b609050ab05f68d4b18f2bc2eb72de293044a36f38d83c73bf6"
+    },
+    {
+      "path": "docs/hellofugu-tracking-current.json",
+      "sha256": "5c66fc444ad2b992864085bd913f3e1314bc47200c44b2589eb9099decb42801"
+    },
+    {
+      "path": "docs/构建验证.txt",
+      "sha256": "c701e5323ca751a48f5713415f9a65ed6b58ec9b34a3e297f2fbea06cca14522"
+    },
+    {
+      "path": "docs/线上V002保留验收.json",
+      "sha256": "97c4c8da5f44695dbdf089c998af391077e7b5ec53e1831bba64e232cbe91ffe"
+    },
+    {
+      "path": "docs/Workers适配与部署说明.md",
+      "sha256": "2cfefa3a8186f388b9b2e5a22690a41262fa11ab7bea979452bcfb10f1f0a66e"
+    },
+    {
+      "path": "docs/registration-intent.json",
+      "sha256": "b869451b8dc5ac4d8b984cd1cd42a6dcdc7b02fd3b458b93bb45987d93ae984f"
+    },
+    {
+      "path": "docs/规则与兼容性核验.md",
+      "sha256": "6de71358267f2d8a83362fcdbfd26f36390eea3397686adaa0516c2688f803ee"
+    },
+    {
+      "path": "docs/本地V003端到端验收.json",
+      "sha256": "c9abbadfc4a64113a397827d55e7850a28231f1741cdd3c18038cbe92ed78a29"
+    },
+    {
+      "path": "docs/真实AI解释验收.json",
+      "sha256": "1abdd46662475596bcb0e28c7ca41c62f4c0c73e7d8c196fa79296f7dc843471"
+    },
+    {
+      "path": "docs/V003交付清单.json",
+      "sha256": "81af4d25ead6217d02aafb1c187a795f951516f38fba17c23ac51727d443f3dc"
+    },
+    {
+      "path": "docs/自动测试结果.txt",
+      "sha256": "e1bc93e2035c46bbf04d9441c02c601686683989bb58e33b62b7d44d13b2f6f8"
+    },
+    {
+      "path": "docs/资格审计报告.json",
+      "sha256": "4aed8142d353159347fa5fe7b07fdaa76ae18be5f77454071d50b6495074a503"
+    },
+    {
+      "path": "docs/平台与注册只读核验.json",
+      "sha256": "ee6df916c6efe727e0c7e8a9c3ffdb9c07702d88d42f94d6367ab5342e7cfea4"
+    },
+    {
+      "path": "docs/待确认事项.md",
+      "sha256": "d16b05db17d93c74b44c82dfe2159cf0ad796e95bcfc3b51f44942d01a51897a"
+    },
+    {
+      "path": "docs/history/v0.0.1/方案与规则.md",
+      "sha256": "ca7f21ff54f492a94468543bd5c7c598b90196c164b36db414ba019323828193"
+    },
+    {
+      "path": "docs/history/v0.0.1/当前交付状态.md",
+      "sha256": "ba569a2f78ea9ffad4fdba76a8efcd840098beac7fcec9330f87f4160122e17c"
+    },
+    {
+      "path": "docs/history/v0.0.1/操作说明.md",
+      "sha256": "8535488dd322a8cc12f4589367f5afd9ac51505be5b890ad59e67064f60a8528"
+    },
+    {
+      "path": "docs/history/v0.0.1/本地接口验证.json",
+      "sha256": "d4d3fb051f7779c6a36630adc78e42238865df278ee31246627a5f2e19a78e72"
+    },
+    {
+      "path": "docs/history/v0.0.1/资格核验报告.json",
+      "sha256": "baee608418e14a10b9d6139a1a2a1f9569c2f09549f7551e97b8ce9960b6135d"
+    },
+    {
+      "path": "docs/history/v0.0.2/Pages与后台联动验收.json",
+      "sha256": "17918e3c22ca8174a093024841fb70ef745b3f4c9fed4f3aa9f4870f5d301a83"
+    },
+    {
+      "path": "docs/history/v0.0.2/公网部署验收.json",
+      "sha256": "65dc6b6e5c884f1455b7112803b61a7b7f65f6c2b7cfa72074cb31ba39127f0a"
+    },
+    {
+      "path": "docs/history/v0.0.2/Workers适配与部署说明.md",
+      "sha256": "16b81a6910b5491c61ea892769bb266c354f7ed0cfea1c071e34526ff5e2d0b4"
+    },
+    {
+      "path": "docs/history/v0.0.2/Workers本地验收.json",
+      "sha256": "1bd6b2f93bc80ed98bd49a1fdb06b85fe35aa6c9cc459a5d35039233b78db1ce"
+    },
+    {
+      "path": "docs/history/v0.0.2/部署记录.json",
+      "sha256": "a6407aea68a19439d425fbf1258f32cd3a6be7cf1244791299be401396216b2f"
+    },
+    {
+      "path": "docs/history/v0.0.2/资格核验报告.json",
+      "sha256": "22e2171dc69a224b9e63055c6f95a2ce6b0dd90729364dd08288e5be375b581f"
+    },
+    {
+      "path": "docs/history/v0.0.2/Cron首次公网快照.json",
+      "sha256": "a36b20e629cfb6f4f09cf09eaabb21c78d5ae8d88ff5f9be4dd1805dea6a4786"
+    },
+    {
+      "path": "docs/history/v0.0.2/Cron连续运行验收.json",
+      "sha256": "9120e6526dfffa73451958030686681d9577b6039b656d0fff044d30393c7375"
+    },
+    {
+      "path": "docs/history/v0.0.2/Workers重启持久化验收.json",
+      "sha256": "f77905826791c6f7512b46b2f927974d6ace7fcc59ec53cbd85b56307ac4f13d"
+    },
+    {
+      "path": "scripts/build-pages.js",
+      "sha256": "e1a847e196f66c2951ba966053f5033262bb8f0c1f6c947a7f1a9695f984dfc8"
+    },
+    {
+      "path": "scripts/pages-smoke.js",
+      "sha256": "2ec5b4d0e38298e70e9aaf430a96ec840770cb66cf30f9d037555319abbc875b"
+    },
+    {
+      "path": "scripts/preflight.js",
+      "sha256": "ec0978b14d08681eeed91c029dfc600589446103d20dd258016c2de58a03ab69"
+    },
+    {
+      "path": "scripts/smoke.js",
+      "sha256": "042abbacd3a5f7ea884c086cb4961ceafedffc00cad773a74837aad46d47c673"
+    },
+    {
+      "path": "scripts/worker-smoke.js",
+      "sha256": "fed99220d79d0480fe8907316e59e8e7492c67b6a2705e333d464171041e921a"
+    },
+    {
+      "path": "scripts/qualify.js",
+      "sha256": "643bbc6230b91c4fd0a876791535bac3ccc06ae57df09118d7f110764e6e369b"
+    },
+    {
+      "path": "scripts/prepare.js",
+      "sha256": "61f93e562eb7157d0f0c24e5c4ea46a79c95c555dddff2a200d90706be487e1a"
+    },
+    {
+      "path": "scripts/local-v003-smoke.js",
+      "sha256": "c22ab7c2b3b6931d4a748af0f6652c89493569606a78a3844d37158689ba6b63"
+    },
+    {
+      "path": "scripts/explain.js",
+      "sha256": "67da8ec53d2e4c99593fe336123d8d41227f8a3f542aa43d10eb4abfa20704ff"
+    },
+    {
+      "path": "scripts/public-smoke.js",
+      "sha256": "9821dd748329b53e952982d2fad1a8077e318814e13e8017888d7742f3374b6c"
+    },
+    {
+      "path": "scripts/probe.js",
+      "sha256": "fa12c2d3650d9099ecf45864626aaf0a27b2717a49e70b6cf1afafad01b935ca"
+    },
+    {
+      "path": "src/ai.js",
+      "sha256": "2b5cc37b65b608b81c14409862da068361a2b6b8362420f038bca71e3e155d9b"
+    },
+    {
+      "path": "src/chain.js",
+      "sha256": "cf2796b05e9c24156da11088a9342606c1f74708dadac10428b01c988ef9fe65"
+    },
+    {
+      "path": "src/server.js",
+      "sha256": "be8b09f141dd253a89aa9d9e65d3e0f59e87f3547a6015d1c4dd8a1077e0e185"
+    },
+    {
+      "path": "src/worker.js",
+      "sha256": "075b8ff42444605a089a78f17d56ec740a6159b61da116e0414827d6a9940fd6"
+    },
+    {
+      "path": "src/version.js",
+      "sha256": "b98941114dd6ed082b9eee2e105b16b0f70cd96bebc6fe84b250711a544c395a"
+    },
+    {
+      "path": "src/metadata.js",
+      "sha256": "3c04a2d42e35a7d81722020a715590cf378e84c22ff17c215a796a809f2b7228"
+    },
+    {
+      "path": "src/local-store.js",
+      "sha256": "efd74104c5b97d5819c1e22358e19ad5429c837732164a1823d59203aa163291"
+    },
+    {
+      "path": "src/prepare.js",
+      "sha256": "7f921fb9707e4c086a2ed2257ac6a3c8db98766e34cc434c74d5219f1e2b23bc"
+    },
+    {
+      "path": "src/evidence.js",
+      "sha256": "a0a66e931cba2c1761be995856c3a32e3cb6d1d3c1bcd56bfcdd0cc411dd30bf"
+    },
+    {
+      "path": "src/risk.js",
+      "sha256": "2ac29c0043b3112f6bba2c14a933adbb87df6bb5bdb903585bf8a26b5e951ca3"
+    },
+    {
+      "path": "src/marketplace.js",
+      "sha256": "1aecac9be84eb1b386b2213fcae21e09a4dbb30aaf05844c17b0b10a9d808730"
+    }
+  ]
+}

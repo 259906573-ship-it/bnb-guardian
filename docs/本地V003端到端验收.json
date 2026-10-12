@@ -1,0 +1,61 @@
+{
+  "version": "V0.0.3",
+  "checkedAt": "2026-10-12T01:30:23.849Z",
+  "checks": [
+    {
+      "path": "/healthz",
+      "status": 200
+    },
+    {
+      "path": "/v1/watch",
+      "status": 200
+    },
+    {
+      "path": "/agent-registration.json",
+      "status": 200
+    },
+    {
+      "path": "/.well-known/agent-registration.json",
+      "status": 200
+    },
+    {
+      "path": "/.well-known/agent-card.json",
+      "status": 200
+    },
+    {
+      "path": "/v1/position?account=0x9F81A9588c310b90A0636E8D2fb31523a57fbaDC",
+      "status": 200
+    },
+    {
+      "path": "/v1/marketplace/invoke",
+      "status": 403
+    },
+    {
+      "path": "/v1/marketplace/challenge?subId=1&account=0x9F81A9588c310b90A0636E8D2fb31523a57fbaDC",
+      "status": 200
+    },
+    {
+      "path": "/v1/explain",
+      "status": 200
+    }
+  ],
+  "explanation": {
+    "mode": "ollama",
+    "model": "qwen3.5:9b-mlx",
+    "text": "### 链上数据事实\n- **账户地址**：`0x9F81A9588c310b90A0636E8D2fb31523a57fbaDC`\n- **网络环境**：Venus BSC 测试网（ChainId: 97）\n- **数据快照时间**：Block #136270274，Timestamp 1791768601\n- **债务状态**：当前 `debtUsdWad` 为 \"0\"，风险状态标记为 `no-debt`（无债务）。\n- **抵押市场**：`markets` 数组为空。这仅表示在该快照时刻，该账户未在 Venus 协议中存入任何抵押品，**不能**证明用户在测试网或其他链上没有任何资产或存款。\n- **健康因子**：`healthFactorWad` 为 `null`（因无抵押品且无债务，故无法计算）。\n\n### 限制与不确定性\n- **数据时效性**：存储的余额、协议流动性会计及价格可能在交易执行前发生变化。\n- **非清算阈值**：此处的健康因子是 Venus Core 的抵押因子覆盖率，**不是** Aave 的清算阈值（HF）指标。\n- **无操作建议**：由于账户无债务且无抵押品，不存在偿债需求，也不产生任何借款或提取抵押品的交易参数/金额。\n\n### 结论\n该地址在指定快照下为 Venus 测试网上的空账户（无抵押、无负债）。无需进行任何资金操作，所有链上交互必须由用户独立签名确认。",
+    "aiVerified": true,
+    "assessmentHash": "0x10021e0d3dc0d653a25951ae23bf6f55f92e0e8e98fc28ccf12eb26decf5dd37",
+    "authority": "explanation-only",
+    "usage": {
+      "inputTokens": 513,
+      "outputTokens": 362
+    }
+  },
+  "health": {
+    "status": "no-debt",
+    "action": "none",
+    "requiredRepayUsdWad": "0"
+  },
+  "transactionsSent": 0,
+  "marketplaceInvocation": "Invalid hire/signature rejected; successful external paid hire not yet possible without identity and listing"
+}

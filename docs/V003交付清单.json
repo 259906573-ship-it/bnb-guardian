@@ -1,0 +1,51 @@
+{
+  "version": "V0.0.3",
+  "runtime": "LOCAL_VERIFIED; PRODUCTION_REMAINS_V0.0.2",
+  "registration_tx": null,
+  "agent_id": null,
+  "marketplace_url": null,
+  "hire_evidence": {
+    "outgoing": [],
+    "external": []
+  },
+  "functional_tx_evidence": [],
+  "qualified": false,
+  "transactions_sent": 0,
+  "verified": {
+    "tests": 26,
+    "registration_simulation": true,
+    "local_http_end_to_end": true,
+    "real_local_ai": "qwen3.5:9b-mlx",
+    "production_v002_healthy": true
+  },
+  "requires_user_action": [
+    "Campaign enrollment proof",
+    "Claim faucet test BNB",
+    "Approve V0.0.3 publishing and persistent AI configuration",
+    "ERC-8004 registration signature",
+    "Confirm marketplace listing terms and signature",
+    "Real hires and claims",
+    "Each functional transaction signature"
+  ],
+  "gas": {
+    "chainId": 97,
+    "registrationEstimatedGas": 180443,
+    "gasPriceWei": "100000000",
+    "registrationBudgetTBNB": "0.0000216532",
+    "remainingTransactions": "Must simulate after real identity, payment balance and at-risk positions exist",
+    "provisionalWorkflowGasRange": [
+      2000000,
+      5000000
+    ],
+    "provisionalGasRangeIsNotSimulation": true
+  },
+  "limitations": [
+    "Successful paid-hire invocation is unverified until registration/listing/subscription exist",
+    "Second market adapter is incomplete",
+    "External wallet independence and originality need organizer review",
+    "Five legitimate risk tasks across three days are not guaranteed",
+    "Hosted AI is not yet configured",
+    "Highest-quality mascot icon remains incomplete"
+  ],
+  "githubSourcePublication": "SOURCE_HASH_VERIFIED: 43 runtime/config/build files publicly published; documentation upload in progress"
+}

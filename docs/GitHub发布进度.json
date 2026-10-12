@@ -1,0 +1,21 @@
+{
+  "version": "V0.0.3",
+  "checkedAt": "2026-10-12T07:20:10.546756+00:00",
+  "repository": "https://github.com/259906573-ship-it/bnb-guardian",
+  "publishedAndHashVerifiedDirectories": [
+    "src",
+    "config",
+    "scripts",
+    "test",
+    "migrations"
+  ],
+  "verifiedFileCount": 43,
+  "pending": [
+    "Current docs and historical evidence directories"
+  ],
+  "complete": false,
+  "blocker": null,
+  "production": "V0.0.2 remains healthy",
+  "transactionsSent": 0,
+  "rootCommit": "13fe8fd0cc42b81a37fcc925566a39eb682589ca"
+}

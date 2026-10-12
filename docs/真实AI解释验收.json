@@ -1,0 +1,38 @@
+{
+  "snapshot": {
+    "account": "0x9F81A9588c310b90A0636E8D2fb31523a57fbaDC",
+    "chainId": 97,
+    "protocol": "venus-core-testnet",
+    "blockNumber": 136268980,
+    "blockHash": "0x233ddcb2c5055e60c7779815b1cbdb45f18e8c201df4326317990ef3bcb89f85",
+    "timestamp": 1791768018,
+    "weightedCollateralUsdWad": "0",
+    "debtUsdWad": "0",
+    "healthFactorWad": null,
+    "liquidityUsdWad": "0",
+    "shortfallUsdWad": "0",
+    "oracle": "0x3cD69251D04A28d887Ac14cbe2E14c52F3D57823",
+    "markets": [],
+    "limitations": [
+      "Stored balances, matching protocol liquidity accounting; interest and prices can change before execution.",
+      "Health factor is collateral-factor coverage for Venus Core, not an Aave liquidation-threshold metric."
+    ]
+  },
+  "risk": {
+    "status": "no-debt",
+    "action": "none",
+    "requiredRepayUsdWad": "0"
+  },
+  "explanation": {
+    "mode": "ollama",
+    "model": "qwen3.5:9b-mlx",
+    "text": "### 链上数据事实（基于快照）\n- **账户状态**：地址 `0x9F81A9588c310b90A0636E8D2fb31523a57fbaDC` 在 BSC 测试网（ChainId 97）的 Venus Core 协议中，债务余额为 `0`。\n- **抵押品状态**：加权抵押品价值 (`weightedCollateralUsdWad`) 和流动性 (`liquidityUsdWad`) 均为 `0`。\n- **健康因子**：由于无债务且无抵押品，健康因子 (`healthFactorWad`) 为 `null`（未定义）。\n- **清算风险**：无短缺 (`shortfallUsdWad: 0`)，因此不存在清算或偿债需求。\n\n### 限制与不确定性\n- **数据时效性**：存储余额匹配协议流动性会计，但利息和价格可能在执行前发生变化。当前快照不代表未来状态。\n- **指标定义**：健康因子是 Venus Core 的抵押品覆盖率指标，**不是** Aave 清算阈值 HF。\n- **无活动资产**：`markets` 数组为空，表明该账户未在协议中存入任何抵押品或借入任何债务。\n\n### 结论\n- **无需行动**：由于状态为 `no-debt`（无债务），**不需要偿还任何资金**。\n- **风险提示**：当前数据仅反映历史快照时刻的状态。若用户计划进行借贷操作，需重新查询实时链上数据以确认抵押品价值和最新利率。",
+    "aiVerified": true,
+    "assessmentHash": "0x54582b145323dfe4658a43402f732b1d3f9be165aa9890a54918b8957f3abad8",
+    "authority": "explanation-only",
+    "usage": {
+      "inputTokens": 495,
+      "outputTokens": 347
+    }
+  }
+}

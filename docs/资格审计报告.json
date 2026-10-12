@@ -1,0 +1,48 @@
+{
+  "registration_tx": null,
+  "agent_id": null,
+  "marketplace_url": null,
+  "hire_evidence": {
+    "outgoing": [],
+    "external": []
+  },
+  "functional_tx_evidence": [],
+  "version": "V0.0.3",
+  "checkedAt": "2026-10-12T01:27:46.636Z",
+  "qualified": false,
+  "checks": {
+    "registration": "MISSING",
+    "identityAndListing": "MISSING",
+    "fiveActions": "MISSING",
+    "threeUtcDates": "MISSING",
+    "threeDifferentAgents": "MISSING",
+    "twoMarkets": "MISSING",
+    "threeExternalWallets": "MISSING",
+    "externalFundingIndependence": "REVIEW_REQUIRED",
+    "publicRepository": "REVIEW_REQUIRED",
+    "aiAndAutonomousExecution": "REVIEW_REQUIRED",
+    "phase2OriginalityAndListingDate": "REVIEW_REQUIRED"
+  },
+  "evidence": {
+    "actions": [],
+    "outgoingHires": [],
+    "externalHires": []
+  },
+  "issues": [],
+  "limitations": [
+    "Wallet independence and indirect/common-source funding cannot be proven from receipts alone. Manual organizer review is required.",
+    "Only the HelloFugu Chain 97 hire adapter has been implemented and verified against source; other markets are UNKNOWN, never counted.",
+    "Five repayments must be legitimate triggered work; no artificial risk creation or circular repayments."
+  ],
+  "requestedRegistrationTx": null,
+  "requestedAgentId": null,
+  "reviewRequired": [
+    "Official campaign enrollment",
+    "External-wallet ownership and common/indirect funding",
+    "Originality and Phase 2 listing eligibility",
+    "Agent-origin provenance for user-signed operations",
+    "Second marketplace adapter",
+    "Actual service delivery and continuously reachable AI"
+  ],
+  "status": "NOT_QUALIFIED_OR_NOT_FULLY_VERIFIED"
+}

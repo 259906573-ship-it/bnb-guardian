@@ -1,0 +1,22 @@
+
+> bnb-guardian@0.0.3 build:pages
+> npm run build:worker && node scripts/build-pages.js
+
+
+> bnb-guardian@0.0.3 build:worker
+> wrangler deploy --config wrangler.worker.json --dry-run --outdir dist-worker
+
+
+ ⛅️ wrangler 4.141.0 (update available 4.149.0)
+───────────────────────────────────────────────
+Total Upload: 592.96 KiB / gzip: 153.50 KiB
+Your Worker has access to the following bindings:
+Binding                                                               Resource                  
+env.MONITOR_DB (bnb-guardian-monitor)                                 D1 Database               
+env.RATE_LIMITER (60 requests/60s)                                    Rate Limit                
+env.RPC_URL ("https://bsc-testnet-rpc.publicnode.com")                Environment Variable      
+env.CAMPAIGN_WALLET ("0x9F81A9588c310b90A0636E8D2fb31523a57...")      Environment Variable      
+env.PUBLIC_BASE_URL ("https://bnb-guardian.pages.dev")                Environment Variable      
+
+--dry-run: exiting now.
+Pages advanced-mode artifact prepared locally. Nothing deployed.

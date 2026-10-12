@@ -1,0 +1,47 @@
+{
+  "version": "V0.0.3",
+  "checkedAt": "2026-10-12T01:19:46.926Z",
+  "chainId": 97,
+  "block": 136268869,
+  "contracts": {
+    "identity": {
+      "address": "0x8004A818BFB912233c491871b3d84c89A494BD9e",
+      "hasCode": true
+    },
+    "market": {
+      "address": "0xb2f36070E6eae3353E8e755172B477DF213ae248",
+      "hasCode": true
+    },
+    "subscription": {
+      "address": "0xfdb083371f44Cf53181350389D3217e51B431776",
+      "hasCode": true
+    }
+  },
+  "registryBinding": "0x8004A818BFB912233c491871b3d84c89A494BD9e",
+  "subscriptionRegistry": "0xb2f36070E6eae3353E8e755172B477DF213ae248",
+  "listingCount": "25",
+  "subscriptionCount": "22",
+  "walletBalanceTBNB": "0.0",
+  "gasPriceWei": "100000000",
+  "registration": {
+    "simulation": "passed",
+    "estimatedGas": "180443",
+    "gasBudgetTBNB": "0.0000216532",
+    "predictedIdIsNotRegistration": true
+  },
+  "sampleHire": {
+    "listingId": "1",
+    "agentId": "2480",
+    "category": 3,
+    "feeBps": "500",
+    "paymentTBNB": "0.000132842711590224",
+    "simulation": "BLOCKED_BY_ZERO_WALLET_BALANCE",
+    "estimatedGas": null
+  },
+  "transactionsSent": 0,
+  "limitations": [
+    "Listing 1 is a historical team-owned sample; do not count its other team hires as external users. No hire was submitted.",
+    "Actual listing simulation requires the newly registered identity.",
+    "No claim of campaign registration or eligibility."
+  ]
+}
