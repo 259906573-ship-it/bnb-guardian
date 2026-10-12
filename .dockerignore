@@ -1,0 +1,10 @@
+node_modules
+.git
+.env*
+secrets
+data
+reports
+.wrangler
+.dev.vars*
+dist-worker
+dist-pages

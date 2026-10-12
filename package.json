@@ -1,0 +1,30 @@
+{
+  "name": "bnb-guardian",
+  "version": "0.0.3",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test test/*.test.js",
+    "probe": "node scripts/probe.js",
+    "qualify": "node scripts/qualify.js",
+    "prepare": "node scripts/prepare.js",
+    "dev:worker": "wrangler dev --config wrangler.worker.json --local --test-scheduled --port 8798",
+    "build:worker": "wrangler deploy --config wrangler.worker.json --dry-run --outdir dist-worker",
+    "db:local": "wrangler d1 migrations apply MONITOR_DB --config wrangler.worker.json --local",
+    "test:worker-live": "node scripts/worker-smoke.js",
+    "build:pages": "npm run build:worker && node scripts/build-pages.js",
+    "dev:pages": "wrangler pages dev dist-pages --port 8799",
+    "preflight": "node scripts/preflight.js",
+    "test:v003-live": "node scripts/local-v003-smoke.js"
+  },
+  "dependencies": {
+    "ethers": "6.16.0"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "wrangler": "4.141.0"
+  }
+}

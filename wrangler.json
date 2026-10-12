@@ -1,0 +1,19 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "bnb-guardian",
+  "pages_build_output_dir": "dist-pages",
+  "compatibility_date": "2026-10-02",
+  "vars": {
+    "RPC_URL": "https://bsc-testnet-rpc.publicnode.com",
+    "CAMPAIGN_WALLET": "0x9F81A9588c310b90A0636E8D2fb31523a57fbaDC",
+    "PUBLIC_BASE_URL": "https://bnb-guardian.pages.dev"
+  },
+  "d1_databases": [
+    {
+      "binding": "MONITOR_DB",
+      "database_name": "bnb-guardian-monitor",
+      "database_id": "eeadc0e5-5e6c-4a10-bd7a-e038557d8db6",
+      "migrations_dir": "migrations"
+    }
+  ]
+}
